@@ -1,14 +1,3 @@
-# dockerfile for running brightbox cli commands
-# Usage:
-# > docker run -i -t -v ${HOME}/.brightbox:/root/.brightbox devops/brightbox config
-# INFO: client_id: xxx yyy@zz.com
-# Using config file /root/.brightbox/config
-# 
-#  alias                     client_id  secret           api_url                        auth_url                     
-# --------------------------------------------------------------------------------------------------------------------
-# --------------------------------------------------------------------------------------------------------------------
-
-
 FROM stackbrew/ubuntu:14.04
 MAINTAINER arnaud@capital-match.com
 
